@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador/desencriptador</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body background="interrogaciones.png">
+  <img src="antifaz.png" alt="Esto es un antifaz">
+  <div class="ingresoMensaje">
+    <form id="form1" autocomplete="off">
+      <h2 style="text-align: center; color: white;font-size: 30px;text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;">Escribe tus secretos más profundos y los codificaré...</h2>
+      <label for="ingreso"> Ingresa aqui tu mensaje</label>
+      <input id="ingreso" type="text" minlength="15" maxlength="100" name="entradaMensaje" required placeholder="Ingresa aqui tu mensaje">
+      <button id="encriptar">Encriptar</button>
+      <button id="desencriptar">Desencriptar</button>
+  
+     
+    </form>
+
+  </div>
+
+
+<form action="">
+
+  <div class="SalidaMensaje">
+    <label for="areaTexto">Ve aqui tu mensaje</label>
+    <textarea id="areaTexto" name="textarea" rows="5" cols="50" placeholder="Ve aqui tu mensaje codificado y decodificado" ></textarea>
+    <button id="copiar">Copiar</button>
+   
+
+</form>
+  </div>
+
+    
+    <script src="app.js"> </script>
+    <script src="ValidadorMayusculas.js"></script>
+    <script src="copiarTexto.js"></script>
+</body>
+</html>

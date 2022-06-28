@@ -1,0 +1,84 @@
+body{
+    font-weight: bold;
+color:white;
+text-align: center;
+}
+img{
+    width: 150px;
+  margin: 1%  2%; 
+  border-radius: 60px;
+  box-shadow: 2px 2px 15px green;  
+}
+form label,input,textarea{
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px 25px;
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 20px;
+   
+}
+
+input,textarea{
+    border: 1px solid lightblue;
+    padding:10px;
+    resize: none;
+
+}
+
+div{
+    background-color:deeppink;
+    border: 1px solid pink;
+    border-radius:20px;
+    background-color: -prefix-linear-gradient(top,#ff0000, rgb(179, 50, 50));
+    margin:20px 200px ;
+}
+button{
+    font-size: 16px;
+    border-radius: 20px;
+    border:none;
+    background-color: pink;
+    color: white; 
+    text-shadow: gray 0.1em 0.1em 0.2em;
+    width: 120px;
+height: 60px; 
+padding:1%; 
+margin-bottom: 5px;
+}
+button:hover{
+    background: aquamarine;
+    transition: 1s all;
+    
+    
+}
+button,input:hover{
+    background: lightpink;
+    transition: 1s all;
+    
+}
+#encriptar{
+    margin-left: 50px;
+    margin-right: 40px;
+}
+#copiar{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h3{
+    color:black;
+    background-color: pink;
+    text-shadow: white 0.1em 0.1em 0.2em;
+    margin:20px 200px ;
+    height: 30px;
+    font-size: 20px;
+}
+.desaparecer{
+    opacity: 0;
+    transition: 0.5s;}
+    ::placeholder {
+        color: pink;
+        font-family: cursive;
+      }
+
